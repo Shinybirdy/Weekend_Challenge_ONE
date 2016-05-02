@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weekend Challenge #1</title>
+      <link rel="stylesheet" href="stylesheet.css" type="text/css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+  <h1>Weekend Challenge #1</h1>
+  <div id = "container">
+    <h2>Input Form</h2>
+      <form id="employeeinfo">
+<!--First Name-->
+        <label for="firstName">Employee First Name:</label>
+          <input type="text" id="firstName" name="firstName" /><br>
+<!--Last Name-->
+        <label for="lastName">Employee Last Name:</label>
+          <input type="text" id="lastName" name="lastName" /><br>
+<!--Employee Id Number -->
+       <label for="empIdNumber">Employee ID Number:</label>
+        <input type="text" id="empIdNumber" name="empIdNumber" /><br>
+<!--Job title-->
+          <label for="jobTitle">Job Title:</label>
+          <input type="text" id="jobTitle" name="jobTitle" /><br>
+<!--Annual Salary-->
+          <label for="annualSalary">Annual Salary:</label>
+          <input type="text" id="annualSalary" name="annualSalary" /><br>
+<!--Submit button-->
+  <input type="submit" value="Submit Form" />
+    </form>
+</div>
+  <div id="monthlyCost">
+    <h2>Total Monthly Cost of Combined Employee Salaries:</h2>
+
+<script>document.getElementById('#averagemonthlyCost').innerHTML = averageMonthlyCost;</script>
+
+<p>This number reflects the result of combining all employee salaries, then dividing by 12.</p>
+ </div>
+
+   <h2>Employees</h2>
+   <p>Here are the employees that have been entered into the thing we've got going on here:</p>
+
+    <script type="text/javascript" src="jquery-1.12.3.min.js"></script>
+     <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
